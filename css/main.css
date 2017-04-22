@@ -2,11 +2,15 @@
  * Globals
  */
 
+.panel {
+    background-color: #666666;
+  }
+
 /* Links */
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #dedede;
 }
 
 /* Custom default button */
@@ -133,6 +137,8 @@ body {
  */
 
 @media (min-width: 768px) {
+  section {
+  }
   /* Pull out the header and footer */
   .masthead {
     position: fixed;
