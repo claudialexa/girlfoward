@@ -1,21 +1,19 @@
-/*
- * Globals
- */
+@import url('https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro');
 
- .jumbotron{
+.jumbotron{
   position: relative;
   z-index:-101;
 }
 
-  #video-background { 
-      position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-        z-index: -100;
-        width:100%;
+#video-background { 
+  position: fixed;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width:99%;
 }
 
 /* Links */
@@ -37,6 +35,7 @@ a:hover {
 
 .navbar {
   background-color: #ffffff;
+  border-color: transparent;
 }
 
 
@@ -51,10 +50,11 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
   text-align: center;
+  font-family: 'Source Sans Pro', sans-serif !important;
 }
 
 .container {
-  padding: 10px;
+  padding: 20px;
   width: 100%;
 }
 
@@ -66,7 +66,7 @@ body {
 }
 
 .gray {
- background-color: #dedede;
+ background-color: #363636;
 }
 
 .pink{
@@ -80,17 +80,21 @@ body {
 
 @media (min-width: 320px) {
 
-  h1.hero{
+  .jumbtotron {
+    height: 100%;
+  }
+
+  h1.hero {
     font-size: 52px;
+    font-family: 'Bitter'!important;
     margin-bottom: 20px;
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
   }
-  p.landing {
-    font-size: 18px;
-  }
 
-  .jumbtotron {
-    height: 100%;
+  p.landing {
+    font-family: 'Source Sans Pro'!important;
+    font-size: 18px;
+    line-height: 24px;
   }
 
 }
