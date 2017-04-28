@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bitter|Source+Sans+Pro');
+<<<<<<< HEAD
 
 .navbar {
   border-color: #ffffff!important;
@@ -13,6 +14,9 @@
   background-color: #f2385a;
 }
 
+=======
+
+>>>>>>> origin/master
 .jumbotron{
   position: relative;
   z-index:-101;
@@ -36,9 +40,21 @@ video {
   display: block;
 }
 
+<<<<<<< HEAD
 .no-padding {
   padding-left: 0;
   padding-right: 0;
+=======
+#video-background { 
+  position: fixed;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width:99%;
+>>>>>>> origin/master
 }
 
 /* Links */
@@ -60,6 +76,7 @@ a:hover {
 
 .navbar {
   background-color: #ffffff;
+  border-color: transparent;
 }
 
 
@@ -76,6 +93,7 @@ body {
   vertical-align: middle;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif !important;
+<<<<<<< HEAD
 }
 
 .containerp20 {
@@ -83,6 +101,12 @@ body {
 }
 
 .lead {
+=======
+}
+
+.container {
+  padding: 20px;
+>>>>>>> origin/master
   width: 100%;
 }
 
@@ -94,7 +118,11 @@ body {
 }
 
 .gray {
+<<<<<<< HEAD
  background-color: #333333;
+=======
+ background-color: #363636;
+>>>>>>> origin/master
 }
 
 .pink{
@@ -116,6 +144,7 @@ body {
 
 @media (min-width: 320px) {
 
+<<<<<<< HEAD
   .icon {
     text-align: center;
   }
@@ -126,11 +155,20 @@ body {
 
   h1.hero {
     font-size: 34px;
+=======
+  .jumbtotron {
+    height: 100%;
+  }
+
+  h1.hero {
+    font-size: 52px;
+>>>>>>> origin/master
     font-family: 'Bitter'!important;
     margin-bottom: 20px;
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
   }
 
+<<<<<<< HEAD
   h3.sub {
     font-size: 24px;
     font-weight: bold;
@@ -169,6 +207,12 @@ body {
   position: relative;
   z-index:-101;
   overflow: hidden;
+=======
+  p.landing {
+    font-family: 'Source Sans Pro'!important;
+    font-size: 18px;
+    line-height: 24px;
+>>>>>>> origin/master
   }
 
 }
