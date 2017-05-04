@@ -34,68 +34,172 @@
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
+              <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#"><img src="img/logo-gf.gif" class="logo"></a>
+            <a class="navbar-brand" href="#" style="padding:10px;"><img src="img/img-brand.png" height="40px;"></a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
-                <li><a href="#">Learn More</a></li>
-                <li><a href="#">Give Today</a></li>
+                <li><a href="http://www.girlforward.org">Learn More</a></li>
+                <li><a href="#support">Empower Girls</a></li>
         </div>
         <!--/.navbar-collapse -->
     </div>
 </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <video id="video-background" preload autoplay loop>
+    <div class="jumbotron fullscreen-bg">
+      <video class="fullscreen-bg__video" id="video-background" preload autoplay loop>
         <source src="http://www.claudiaguirre.com/img/10sec.mp4" type="video/mp4">
       </video>
-      <div class= "container"><h1 class="hero">Empowering Girls, Strengthening Communities</h1></div>
+      <div class= "container"><h1><img src="img/tagline.svg" alt="Empowering Girls, Strenghtening Communities" title="Empowering Girls, Strenghtening Communities"></h1></div>
     </div> 
 
       <div class="row containerp20 yellow">
         <div valign="center" class="col-md-12">
-          <p class="lead">When Tiruwerk was six years old, her father was mysteriously imprisoned. Unable to care for her six children on her own, Tiruwerk’s mother decided to sell all their belongings and move the family to a refugee camp in Sudan.</p>
+          <p class="lead">When Tiruwerk was eleven years old, her father was mysteriously imprisoned. Unable to care for her six children on her own, Tiruwerk’s mother decided to sell all their belongings and move the family to a refugee camp in Sudan.</p>
           <p><a class="btn-lg btn-default" href="#video" role="button" data-toggle="collapse">Learn More About her Story</a></p>
         </div>
       </div>
 
       <div id="video" class="collapse">
-        <div class="row">
+        <div class="row black">
           <div class="col-md-12 container-fluid no-padding">
-            <p class="landingblack">Video Will go Here</p>
+            <div class="embed-responsive embed-responsive-16by9">
+               <iframe class="embed-responsive-item" src="//www.youtube.com/embed/ePbKGoIGAXY"></iframe>
+             </div>
         </div>
         </div>
       </div>
 
       <div class="row pink">
         <div class="col-md-6 container-fluid no-padding">
-          <img src="img/img-1.jpg" class="img-responsive" alt="GirlForward Headquarters">
+          <img src="img/img-1.jpg" class="img-responsive hdr" alt="GirlForward Headquarters">
         </div>
         <div class="col-md-6 containerp20 pink">
-          <p valign="center" class="landing">Tiruwerk and her family waited three years for the paperwork and background checks to be completed before they could move to the United States. She had never heard of Chicago or set foot in a plane. X weeks after arriving, Tiruwerk was enrolled in school.</p>
-          <p><a class="btn-lg btn-default" href="#journey" role="button" data-toggle="collapse">Find out More About Tiruwerk's Journey</a></p>
+          <p valign="center" class="landing">Tiruwerk and her family waited three years for the paperwork and background checks to be completed before they could move to the United States. She had never heard of Chicago or set foot in a plane. All things were new and shiny and Tiruwerk's family were ready to start their new life.</p>
+          <p><a class="btn-lg btn-default" href="#journey" role="button" data-toggle="collapse">Explore Tiruwerk's Timeline</a></p>
         </div>
       </div>
+
+      <!-- Timeline HTML and CSS courtesy of blackrockdigital.github.io -->
 
       <div id="journey" class="collapse">
         <div class="row">
           <div class="col-md-12 container-fluid no-padding">
-            <p class="landingblack">Timeline Will go Here</p>
+            <h1 class="sub">Tiruwerk's Journey</p>
+          </div>
         </div>
-        </div>
-      </div>
 
-      <div class="row containerp20 gray">
-        <div class="col-md-12">
-          <p class="landing">Placeholder Long Middle</p>
-        </div>
-      </div>
+        <div class="row">
+                <div class="col-md-12 gftimelinecont">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline-1.jpg" alt="Tiruwerk's home is Sudan">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="gftimeline">June 2001</h4>
+                                    <h3 class="gftimeline">Tiruwerk is Born</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline">Tiruwerk was born in Umrakuba, Sudan. She was the youngest girl in her family, with one older sister and four older brothers. She remained the youngest until her brother Tedros was born four years later.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline-3.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="gftimeline">2009-2012</h4>
+                                    <h3 class="gftimeline">Living in a Refugee Camp</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline">Without any explanation the police imprisoned Tiruwer's father for two years. Tiruwerk's mother was left with no choice but to sell their belongings and seek shelter at a refugee camp in Al Khurtum, Sudan. Refugees wait years before they are moved out of camps while they undergo multiple background checks and interviews.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline-4.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="gftimeline">2012</h4>
+                                    <h3 class="gftimeline">Moving to Chicago</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline">Tiruwerk, her parents and four of her siblings arrived in Chicago. The family was unable to bring any of their belongings along, arriving with just some clothes and a couple of their most priced possessions. Despite that, Tiruwerk remembers setting foot in a brand new country full of joy and hope for the future.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline-5.jpg" alt="GirlForward">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="gftimeline">2014</h4>
+                                    <h3 class="gftimeline">Tiruwerk Joins GirlForward</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline">Tiruwerk started attending GirlForward's programs and events. Her older sister Zamenei is a GirlForward alumna. She is currently attending college and wants to become a nurse.</p>
+                                </div>
+                            </div>
+                          </li>
+
+                          <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline-6.jpg" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="gftimeline">June 2015</h4>
+                                    <h3 class="gftimeline">Thriving in School</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline">Tiruwerk graduated 8th grade with perfect attendance. Although starting school and making friends in a new country was difficult, Tiruwerk worked hard at learning English. Her favorite subject is Math</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline-7.jpg" alt="GirlForward">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="gftimeline">August 2015</h4>
+                                    <h3 class="gftimeline">Tiruwerk Meets Her Mentor</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline">Mentorship is a key aspect of GirlForward. Tiruwerk's mentor, Natalie, is an important part of her life. Mentors serve as role models and provide vital support for the girls.</p>
+                                </div>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="img/timeline-8.jpg" alt="High School">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="gftimeline">2015-2016</h4>
+                                    <h3 class="gftimeline">High School, Track and More</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="timeline">Tiruwerk started high school and started making a lot of new friends. After running track &amp; field for a year, she was awarded Most Valuable Player of her team.</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
 
       <div class="row blue">
         <div class="col-md-6 container-fluid no-padding">
@@ -104,13 +208,13 @@
 
         <div class="col-md-6 containerp20 blue">
             <p class="landing">In conflict, girls are especially vulnerable to violence, isolation, and being kept out of school. Girls who receive resettlement in the United States face huge challenges: poverty, language barrier, limited or disrupted education, isolation, and trauma.</p>
-            <p><a class="btn-lg btn-default" href="#" role="button">Help us Empower Girls</a></p>
+            <p><a class="btn-lg btn-default" href="#support" role="button">Help us Empower Girls</a></p>
         </div>
       </div>
 
       <div class="row white">
-        <div class="col-md-12 containerp20 white">
-          <h1 class="sub">How GirlForward Helps</h3>
+        <div class="col-md-12 white">
+          <h1 class="sub">How GirlForward Helps Empower Girls</h3>
         </div>
       </div>
 
@@ -154,28 +258,29 @@
         </div>
       </div>
 
-      <div class="row green">
+      <div class="row green" id="support">
         <div align="center" class="col-md-6 container-fluid no-padding">
           <img src="img/img-4.jpg" class="img-responsive" alt="Tiruwerk">
         </div>
         <div class="col-md-6 containerp20 green">
-          <h3 class="subwhite">Give to Help Girls like Tiruwerk Achieve Their Dreams</h3>
-          <p class="landing">Language that explains the difference that giving to GirlForward can make</p>
+          <h2 class="subwhite">Help Girls like Tiruwerk Achieve Their Dreams</h2>
+          <p class="landing">Contributing to the GirlForward College Fund will allow girls like Tiruwerk attain access to higher education. With your support, we can help girls succeed.</p>
         </div>
           <div class="col-md-6 containerp30 green">
           <p><a class="btn-lg btn-default" href="#" role="button">Give Today</a></p>
         </div>
         <div class="col-md-6 containerp30 green">
-          <p><a class="btn-lg btn-default" href="#" role="button">Help us Empower Girls</a></p>
+          <p><a class="btn-lg btn-default" href="#" role="button">Spread the Word</a></p>
         </div>
     </div>
 
-
-      <hr>
-
-      <footer>
-        <p>&copy; 2016 Company, Inc.</p>
+    <div class="row">
+      <footer class="footer">
+        <div class="container">
+          <span class="text-muted">Place sticky footer content here.</span>
+        </div>
       </footer>
+    </div>
     </div> <!-- /container -->
 
 
