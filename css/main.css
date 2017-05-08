@@ -133,7 +133,7 @@ body {
 }
 
 .green {
-  background-color: #3d9991;
+  background-color: #22b2a5;
 }
 
 .header {
@@ -145,15 +145,6 @@ body {
  * Affix and center
  */
 
-@media (max-width: 650px) {
-  #video-background {
-    display:none!important;
-  }
-
-  .fullscreen-bg {
-    background: url('../img/img-hero.jpg') center center / cover no-repeat;
-  }
-}
 
 @media (min-width: 320px) {
 
@@ -254,6 +245,10 @@ body {
   position: relative;
   z-index:-101;
   overflow: hidden;
+  }
+
+  .fullscreen-bg {
+    background: url('../img/img-hero-2.jpg') center center / cover no-repeat;
   }
 
   .timeline {
@@ -366,10 +361,6 @@ body {
 }
 
 @media (min-width: 350px) {
-  #video-background {
-    width: 100%;
-  }
-
 
 /* Custom default button */
 .btn-default {
@@ -451,18 +442,6 @@ body {
 
   .gftimelinecont {
     padding-bottom: 30px;
-  }
-
-  #video-background { 
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
-  width:100%;
   }
 
  .timeline > li {
@@ -552,18 +531,6 @@ body {
   z-index:-101;
   overflow: hidden;
   height: 550px;
-  }
-
-  #video-background { 
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  overflow: hidden;
-  z-index: -100;
-  width:100%;
   }
 
   h1.sub {
